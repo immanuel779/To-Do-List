@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1 class="todo-header">To-Do List </h1>
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="Add a new task..." required />
+            <button id="addTaskButton">Add</button>
+        </div>
+        <ul class="todo-list" id="taskList">
+            <li class="task">
+                <input type="checkbox" id="task1" class="task-checkbox">
+                <label for="task1">Do the chores</label>
+              </li>
+             
+               <li class="task">
+                <input type="checkbox" id="task2" class="task-checkbox">
+                <label for="task2">Practice on v's code</label>
+              </li>
+
+               <li class="task">
+                <input type="checkbox" id="task3" class="task-checkbox">
+                <label for="task3">Go to church</label>
+              </li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
